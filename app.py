@@ -38,7 +38,7 @@ class Calculator:
 
     @staticmethod
     def apply(a, op, b):
-        if op == "+": return a + b
+        if op == "+": return a * b
         if op == "−": return a - b
         if op == "×": return a * b
         if op == "÷":
